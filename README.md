@@ -21,4 +21,6 @@ pnpm run lint
 ```
 
 ## Notas:
-- Dentro de el codigo para router, por
+- Dentro de el codigo para router, por defecto tendremos 'to=/example' para poder ir a la ruta pero es mejor practica
+  el hacerlo llamandolo por el 'name' dado a que de esa manera podemos cambiar la ruta de manera mas facil sin tener 
+  que modificar cada vez que se usa. 
